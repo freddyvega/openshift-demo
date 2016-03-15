@@ -63,7 +63,7 @@ objects:
   metadata:
     name: selenium-hub
   spec:
-    host: jbossas-wkdemo.rhcloud.com
+    host: hub
     to:
       kind: Service
       name: selenium-hub
