@@ -63,7 +63,7 @@ objects:
   metadata:
     name: selenium-hub
   spec:
-    host: hub
+    host: hub2
     to:
       kind: Service
       name: selenium-hub
@@ -94,7 +94,7 @@ parameters:
     value: "30"
   - name: GRID_MAX_SESSION
     description: How many sessions max
-    value: "3"
+    value: "5"
   - name: GRID_UNREGISTER_IF_STILL_DOWN_AFTER
     description: Time to wait before unregistering nodes
     value: "500"
